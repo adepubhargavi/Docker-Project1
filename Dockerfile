@@ -14,7 +14,7 @@ RUN yum install java -y
 RUN java -version
 
 WORKDIR /opt/tomcat/webapps
-RUN curl -O -L https://github.com/ThotaThanish/Docker-Project1/raw/main/dist/Cloud-DevOps.war
+RUN curl -O -L https://github.com/ThotaThanish/Docker-Project1/blob/main/Cloud-DevOps.war
 
 EXPOSE 8080
 
